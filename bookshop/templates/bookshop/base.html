@@ -32,7 +32,7 @@
        
 
 
-        <title>{% block title %} BookShop {% endblock %}</title>
+        <title>{% block title %} ClubCoder {% endblock %}</title>
     </head>
     <body>
         <div class="header--sidebar"></div>
@@ -41,14 +41,14 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
-                            <p>Islamabad, Pakistan - Hotline: 0306-2281-637</p>
+                            <p>CLUBCODER CODING TUTORIALS</p>
                         </div>
                         <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
                             <div class="header__actions">
                                 {% if user.is_authenticated %}
                                     <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Account<i class="fa fa-angle-down"></i></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#">My Dashboard</a></li>
+                                            <li><a href="#"> Dashboard</a></li>
                                             <li><a href="{% url 'logout' %}">Logout</a></li>
                                             
                                         </ul>
@@ -145,10 +145,10 @@
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                         <div class="ps-iconbox">
                             <header><i class="ps-icon-wallet"></i>
-                                <h3>100% MONEY BACK.</h3>
-                                <p>WITHIN 30 DAYS AFTER DELIVERY.</p>
+                                <h3> TRY IT WILL SAVE YOUR TIME.</h3>
+                                
                             </header>
-                            <p>You may return most new, unopened items sold within 30 days of delivery for a full refund.</p>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
@@ -170,11 +170,11 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                             <div class="ps-site-info site-info"><a class="ps-logo" href="index.html"><img src="{% static 'bookshop/images/logo.png' %}" alt=""></a>
-                                <p>Xuper is a global fashion destination for 20-somethings. We sell cutting-edge fashion and offer a wide variety of fashion-related content, making Xuper Store the hub of a thriving fashion community.</p>
+                                <p>ClubCoder is a global destination for infos. We have cutting-edge tutorials.</p>
                                 <div class="ps-site-info__contact">
                                     <h4>Contact Info</h4>
-                                    <p>Islamabad, Pakistan</p>
-                                    <p>(+92 ) 3062 281637</p>
+                                    <p>Serbia</p>
+                                    <p>(+381 )phone</p>
                                 </div>
                                 <ul class="ps-social">
                                     <li><a href="https://www.facebook.com/sk7698277"><i class="fa fa-facebook"></i></a></li>
@@ -230,7 +230,7 @@
                 <div class="ps-container">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                            <p>&copy; Copyright  <span>2020</span>. Design by <a href="https://www.twitter.com/sk7698277">Sajjad Khan</a>.</p>
+                            <p>&copy; Copyright  <span>2020</span>. Design by <a href="#">CLUBCODER</a>.</p>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                             <div class="ps-footer__payment-methods"><a href="#"><img src="{% static 'bookshop/images/payment-method/paypal.png' %}" alt=""></a><a href="#"><img src="{% static 'bookshop/images/payment-method/visa.png' %}" alt=""></a><a href="#"><img src="{% static 'bookshop/images/payment-method/master-card.png' %}" alt=""></a></div>
